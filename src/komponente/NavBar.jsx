@@ -10,7 +10,7 @@ function NavBar() {
         <div className="topnav">
             <Link to="/">Pocetna</Link>
             <Link to="/kontakt">Kontakt</Link>
-           
+            <Link to="/linije">Linije</Link>
         </div>
     </div>
   );
