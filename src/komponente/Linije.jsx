@@ -11,9 +11,12 @@ function Linije({linije,dodajOmiljenu}) {
       
       
   return (
-    
+    <div>
+        <input  className='search'type="text" placeholder='Pretraga...' onChange={handleInput}></input>  <BsSearch />
     <div className='sveLinije'>
-    <input type="text" placeholder='Pretraga...' onChange={handleInput}></input>  <BsSearch />
+         
+    
+     
     {searchTerm=='' ? 
         linije.map((l)=>(<LinijeKartica key={l.id} linija={l} dodajOmiljenu={dodajOmiljenu} mod={1} ></LinijeKartica>))
         :
@@ -21,6 +24,7 @@ function Linije({linije,dodajOmiljenu}) {
         .filter((l)=> (l.pocetnaStanica.toLowerCase().includes(searchTerm) || l.krajnjaStanica.toLowerCase().includes(searchTerm)) )
         .map((l)=>(<LinijeKartica key={l.id} linija={l} dodajOmiljenu={dodajOmiljenu} mod={1} ></LinijeKartica>))
     }
+    </div>
     </div>
   );
 }

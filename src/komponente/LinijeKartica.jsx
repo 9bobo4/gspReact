@@ -1,5 +1,5 @@
 import React from 'react'
- 
+import {FaBus} from "react-icons/fa"
  
  
 
@@ -8,12 +8,12 @@ function LinijeKartica({linija,dodajOmiljenu,mod,izbaciIzOmiljenih}) { //mod-1 a
     <div >
       <div className="card">
  
-        <h1>{linija.brojLinije}</h1>
-        <p className="price"> {linija.pocetnaStanica}</p>
-        <p className="price"> {linija.krajnjaStanica}</p>
+        <h1><FaBus></FaBus>   {linija.brojLinije}</h1>
+        <p className="price">OD: {linija.pocetnaStanica}</p>
+        <p className="price">DO: {linija.krajnjaStanica}</p>
 
-        <p> {linija.vreme}</p>
-        <p> {linija.zona}</p>
+        <p>Predvidjeno vreme {linija.vreme}</p>
+        <p> ZONA:{linija.zona}</p>
         {mod==1 ? 
         <p><button onClick={()=>dodajOmiljenu(linija.id)}>Dodaj u omiljene linije</button></p>
         :

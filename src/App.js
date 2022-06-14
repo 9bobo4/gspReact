@@ -53,7 +53,76 @@ function App() {
       omiljena:0
 
     }, 
+    {
+      id:5,
+      brojLinije:47,
+      pocetnaStanica:"Slavija",
+      krajnjaStanica:"Resnik",
+      vreme: 40,
+      zona:2, 
+      omiljena:0
 
+    }, 
+    {
+      id:6,
+      brojLinije:16,
+      pocetnaStanica:"Karaburma 2",
+      krajnjaStanica:"Paviljoni",
+      vreme: 42,
+      zona:1, 
+      omiljena:0
+
+    }, 
+    {
+      id:7,
+      brojLinije:39,
+      pocetnaStanica:"Slavija",
+      krajnjaStanica:"Kumodraz 1",
+      vreme: 35,
+      zona:1, 
+      omiljena:0
+
+    }, 
+    {
+      id:8,
+      brojLinije:56,
+      pocetnaStanica:"Zemun novi grad",
+      krajnjaStanica:"Zemun polje",
+      vreme: 45,
+      zona:2, 
+      omiljena:0
+
+    }, 
+    {
+      id:9,
+      brojLinije:73,
+      pocetnaStanica:"Slavija",
+      krajnjaStanica:"Resnik",
+      vreme: 40,
+      zona:2, 
+      omiljena:0
+
+    }, 
+    {
+      id:10,
+      brojLinije:65,
+      pocetnaStanica:"Karaburma 2",
+      krajnjaStanica:"Paviljoni",
+      vreme: 42,
+      zona:1, 
+      omiljena:0
+
+    }, 
+    {
+      id:11,
+      brojLinije:67,
+      pocetnaStanica:"Slavija",
+      krajnjaStanica:"Kumodraz 1",
+      vreme: 35,
+      zona:1, 
+      omiljena:0
+
+    }, 
   ]);
 
 function dodajOmiljenu(id){
