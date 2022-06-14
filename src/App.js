@@ -80,8 +80,6 @@ function izbaciIzOmiljenih(id){
 
 
 
-
-
   return (
 
 
