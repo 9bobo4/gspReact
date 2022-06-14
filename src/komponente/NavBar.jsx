@@ -11,6 +11,7 @@ function NavBar() {
             <Link to="/">Pocetna</Link>
             <Link to="/kontakt">Kontakt</Link>
             <Link to="/linije">Linije</Link>
+            <Link to="/omiljene">Omiljene</Link>
         </div>
     </div>
   );
